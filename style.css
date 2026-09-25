@@ -1,6 +1,8 @@
 /* Card Component */
 .card {
- background-color: #6cc6a8;
+
+ color: black;   
+ background-color: rgb(192, 192, 192);
  padding: 30px;
  border-radius: 12px;
  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -20,13 +22,14 @@
 
 
 .title {
- color: #f90202;
+ color: #4403f7;
  font-weight: 600;
  font-size: 0.95rem;
 }
 
 
 .bio {
+ color: black;   
  font-size: 0.9rem;
  line-height: 1.4;
  margin: 15px 0;
@@ -35,8 +38,8 @@
 
 /* Interactive Button */
 button {
- background-color: #007bff;
- color: #ffffff;
+ background-color: #07ad23;
+ color: black;
  border: none;
  padding: 10px 20px;
  border-radius: 6px;
@@ -47,21 +50,28 @@ button {
 
 
 button:hover {
- background-color: #033f7e;
+ background-color: darkgreen;
 }
 
 
 /* Dark Mode State Class */
 body.dark-mode {
- background-color: #000000;
- color: #07ad23;
+ background-color: black;
+ color: #005A32;
 }
 
 
 body.dark-mode .card {
- background-color: #52529b;
- color: #eef2ed;
+ background-color: #ADFF2F;
+ color: black;
 }
 
 
-
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    min-height: 100vh;       
+    background-color: #ffffff; 
+}
